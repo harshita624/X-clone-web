@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home/X</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+
+  <body class="bg-black text-white">
+    <div class="flex md:container mx-auto my-4">
+      <div class="first w-16 md:w-[70%]">
+     
+        <div class="sidebar flex md:items-end flex-col sticky top-0">
+            <div class="logo invert my-4 self-start mx-2 md:mx-16">
+                <svg
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
+                >
+                  <g>
+                    <path
+                      d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+          <ul class="flex items-end md:items-start w-full flex-col text-2xl space-y-3 md:px-11 font-bold">
+            <li
+              class="flex md:justify-start items-center gap-3 mr-4 md:w-fit justify-center md:px-5 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full  py-3"
+            >
+              <span class="material-symbols-outlined cursor-pointertext-3xl">
+                home </span
+              ><span class="hidden md:block" >Home</span>
+            </li>
+            <li
+              class="flex md:justify-start items-center gap-3 mr-4 md:w-fit justify-center md:px-5 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full  py-3"
+            >
+              <span class="material-symbols-outlined cursor-pointertext-3xl">
+                search </span
+              ><span class="hidden md:block" >Explore</span>
+            </li>
+            <li
+              class="flex md:justify-start items-center gap-3 mr-4 md:w-fit justify-center md:px-5 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full  py-3"
+            >
+              <span class="material-symbols-outlined cursor-pointertext-3xl">
+                Notifications </span
+              ><span class="hidden md:block" >Notifications</span>
+            </li>
+            <li
+              class="flex md:justify-start items-center gap-3 mr-4 md:w-fit justify-center md:px-5 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full  py-3"
+            >
+              <span class="material-symbols-outlined cursor-pointertext-3xl">
+                Dialogs </span
+              ><span class="hidden md:block" >Grok</span>
+            </li>
+            <li
+              class="flex md:justify-start items-center gap-3 mr-4 md:w-fit justify-center md:px-5 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full  py-3"
+            >
+              <span class="material-symbols-outlined cursor-pointertext-3xl">
+                list </span
+              ><span class="hidden md:block" >Lists</span>
+            </li>
+            <li
+              class="flex md:justify-start items-center gap-3 mr-4 md:w-fit justify-center md:px-5 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full  py-3"
+            >
+              <span class="material-symbols-outlined cursor-pointertext-3xl">
+                bookmark </span
+              ><span class="hidden md:block" >Bookmarks</span>
+            </li>
+            <li
+              class="flex md:justify-start items-center gap-3 mr-4 md:w-fit justify-center md:px-5 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full  py-3"
+            >
+              <span class="material-symbols-outlined cursor-pointertext-3xl">
+                Communities </span
+              ><span class="hidden md:block" >Communities</span>
+            </li>
+            <li
+              class="flex md:justify-start items-center gap-3 mr-4 md:w-fit justify-center md:px-5 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full  py-3"
+            >
+              <span class="material-symbols-outlined cursor-pointertext-3xl">
+                license </span
+              ><span class="hidden md:block" >Premium</span>
+            </li>
+            <li
+              class="flex md:justify-start items-center gap-3 mr-4 md:w-fit justify-center md:px-5 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full  py-3"
+            >
+              <span class="material-symbols-outlined cursor-pointertext-3xl">
+                person </span
+              ><span class="hidden md:block" >Profile</span>
+            </li>
+            <li
+              class="flex md:justify-start items-center gap-3 mr-4 md:w-fit justify-center md:px-5 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full  py-3"
+            >
+              <span class="material-symbols-outlined cursor-pointertext-3xl">
+                more </span
+              ><span class="hidden md:block" >More</span>
+            </li>
+            <li>
+              <div class="button w-full text-center my-4">
+                <button
+                  class= "bg-blue-600 hidden md:block  text-white px-20 text-xl rounded-full  py-3"
+                >
+                  Post
+                </button>
+                <button
+                class= "bg-blue-600 md:hidden text-white px-4 text-xl rounded-full  py-3"
+              >
+              <span class="material-symbols-outlined">
+                edit
+                </span>
+              </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="second w-full border-[1px] border-x-gray-600 border-y-black">
+        <div class="top flex p-3 relative">
+          <div
+            class="absolute w-16 h-1 rounded-full  bg-blue-500 bottom-0 left-[17%] z-10"
+          ></div>
+          <div class="left w-1/2 mr-4 md: flex justify-center md:lg">
+            For you
+          </div>
+          <div class="right w-1/2 mr-4 md: flex justify-center md:lg">
+            Following
+          </div>
+          <div class="settings mx-2">
+            <span class="material-symbols-outlined" cursor-pointer>
+              settings
+            </span>
+          </div>
+        </div>
+        <div class="h-[1px] w-full bg-gray-700"></div>
+        <div class="whatishapp flex gap-4">
+          <div class="img w-16 m-2">
+            <img
+              alt="Image"
+              draggable="true"
+              src="https://pbs.twimg.com/profile_images/1819974709787979777/pozwcJJO_400x400.png"
+              class="rounded-full "
+            />
+          </div>
+          <div class="w-full my-3">
+            <input
+              class="w-full h-7 my-2 text-xl outline-none bg-black text-white"
+              type="text"
+              placeholder="What's happening?"
+            />
+            <div
+              class="globe text-blue-600 flex items-center gap-3 w-full my-4"
+            >
+              <span class="material-symbols-outlined cursor-pointer">
+                public
+              </span>
+              <span class="font-bold">Everyone can reply</span>
+            </div>
+            <div class="w-[90%] h-[0.2px] bg-gray-800 my-3"></div>
+            <div class="blueicons flex gap-2 text-blue-600">
+              <span class="material-symbols-outlined cursor-pointer">
+                image
+              </span>
+              <span class="material-symbols-outlined cursor-pointer">
+                gif_box
+              </span>
+              <span class="material-symbols-outlined cursor-pointer">
+                ballot
+              </span>
+              <span class="material-symbols-outlined cursor-pointer">
+                mood
+              </span>
+              <span class="material-symbols-outlined cursor-pointer">
+                schedule
+              </span>
+              <span class="material-symbols-outlined cursor-pointer">
+                location_on
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="posts">
+          <div class="post border-[1px] border-y-gray-500 border-x-0">
+            <div class="flex">
+              <div class="image m-4">
+                <img
+                  class="w-12 rounded-full "
+                  src="https://pbs.twimg.com/profile_images/1593968346533445632/Y6DVzeqm_400x400.jpg"
+                  class="css-9pa8cd"
+                />
+              </div>
+              <div class="content my-3">
+                <span
+                  class="font-bold hover:underline cursor-pointer text-white"
+                  >Global Index</span
+                ><span class="text-gray-600">@TheGlobal_Index · Aug 4</span>
+                <div>
+                  Bangladesh bans Facebook, Instagram, WhatsApp, TikTok, and
+                  YouTube. What the hell is happening?
+                </div>
+                <div class="postimage m-4 ml-0">
+                  <img
+                    src="https://pbs.twimg.com/media/GUIAclBbMAAZqc5?format=png&name=small"
+                    class="rounded-sm"
+                  />
+                </div>
+                <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                  <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full ">
+                    <span class="material-symbols-outlined">chat_bubble</span>1k
+                    </div>
+                    <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full "><span class="material-symbols-outlined"> repeat </span>5.6k</div>
+                    
+                    <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full "><span class="material-symbols-outlined"> favorite </span>67k</div>
+                    <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full "><span class="material-symbols-outlined"> bar_chart </span>5.5M</div>
+            
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="post">
+            <div class="flex">
+              <div class="image m-4">
+                <img
+                  class="w-12 rounded-full "
+                  src="https://pbs.twimg.com/profile_images/1721535772124499968/94of4GO0_400x400.jpg"
+                  class="css-9pa8cd"
+                />
+              </div>
+              <div class="content my-3">
+                <span
+                  class="font-bold hover:underline cursor-pointer text-white"
+                  >Global Index</span
+                ><span class="text-gray-600">@TheGlobal_Index · Aug 4</span>
+                <div>
+                    Top mutual funds based on performance ✅
+
+                    The returns have been amazing
+                </div>
+                <div class="postimage m-4 ml-0">
+                  <img
+                    src="https://pbs.twimg.com/media/GURFlZLXMAAvwNd?format=jpg&name=900x900"
+                    class="rounded-sm"
+                  />
+                </div>
+                <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                    <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full ">
+                      <span class="material-symbols-outlined">chat_bubble</span>1k
+                      </div>
+                      <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full "><span class="material-symbols-outlined"> repeat </span>5.6k</div>
+                      
+                      <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full "><span class="material-symbols-outlined"> favorite </span>67k</div>
+                      <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full "><span class="material-symbols-outlined"> bar_chart </span>5.5M</div>
+              
+                  </div>
+              </div>
+            </div>
+          </div>
+          <hr class="border-y-gray-600">
+          <div class="post">
+            <div class="flex">
+              <div class="image m-4">
+                <img
+                  class="w-12 rounded-full "
+                  src="https://pbs.twimg.com/profile_images/1593968346533445632/Y6DVzeqm_400x400.jpg"
+                  class="css-9pa8cd"
+                />
+              </div>
+              <div class="content my-3">
+                <span
+                  class="font-bold hover:underline cursor-pointer text-white"
+                  >Global Index</span
+                ><span class="text-gray-600">@TheGlobal_Index · Aug 4</span>
+                <div>
+                  Bangladesh bans Facebook, Instagram, WhatsApp, TikTok, and
+                  YouTube. What the hell is happening?
+                </div>
+                <div class="postimage m-4 ml-0">
+                  <img
+                    src="https://pbs.twimg.com/media/GUIAclBbMAAZqc5?format=png&name=small"
+                    class="rounded-sm"
+                  />
+                </div>
+                <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                    <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full ">
+                      <span class="material-symbols-outlined">chat_bubble</span>1k
+                      </div>
+                      <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full "><span class="material-symbols-outlined"> repeat </span>5.6k</div>
+                      
+                      <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full "><span class="material-symbols-outlined"> favorite </span>67k</div>
+                      <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full "><span class="material-symbols-outlined"> bar_chart </span>5.5M</div>
+              
+                  </div>
+              </div>
+            </div>
+          </div>
+          <hr class="border-y-gray-600">
+          <div class="post">
+            <div class="flex">
+              <div class="image m-4">
+                <img
+                  class="w-12 rounded-full "
+                  src="https://pbs.twimg.com/profile_images/1593968346533445632/Y6DVzeqm_400x400.jpg"
+                  class="css-9pa8cd"
+                />
+              </div>
+              <div class="content my-3">
+                <span
+                  class="font-bold hover:underline cursor-pointer text-white"
+                  >Global Index</span
+                ><span class="text-gray-600">@TheGlobal_Index · Aug 4</span>
+                <div>
+                  Bangladesh bans Facebook, Instagram, WhatsApp, TikTok, and
+                  YouTube. What the hell is happening?
+                </div>
+                <div class="postimage m-4 ml-0">
+                  <img
+                    src="https://pbs.twimg.com/media/GUIAclBbMAAZqc5?format=png&name=small"
+                    class="rounded-sm"
+                  />
+                </div>
+                <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                    <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full ">
+                      <span class="material-symbols-outlined">chat_bubble</span>1k
+                      </div>
+                      <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full "><span class="material-symbols-outlined"> repeat </span>5.6k</div>
+                      
+                      <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full "><span class="material-symbols-outlined"> favorite </span>67k</div>
+                      <div class="icon flex items-center justify-center hover:text-blue-600 hover:cursor-pointer hover-bg-gray-500 hover:rounded-full "><span class="material-symbols-outlined"> bar_chart </span>5.5M</div>
+              
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="third w-full hidden md:block">
+        <div class="search m-4 sticky top-0">
+          <input
+            type="text"
+            class="w-[55%] rounded-full  bg-[#16181c] text-white px-4 py-2"
+            placeholder="search"
+          />
+          <div class="whats m-3 bg-[#16181c] w-[65%] py-5 rounded-xl space-y-1">
+            <h1 class="text-xl font-bold  px-3 ">What's Happening</h1>
+            <div class="item p-3 hover:bg-gray-800 cursor-pointer ">
+              <div class="text-sm text-gray-200">Trending in India</div>
+              <div class="font-bold">#Orry</div>
+              <div class="text-sm text-gray-200">40.2k Posts</div>
+            </div>
+            <div class="item p-3 hover:bg-gray-800 cursor-pointer">
+              <div class="text-sm text-gray-200">Trending in India</div>
+              <div class="font-bold">#Harshita</div>
+              <div class="text-sm text-gray-200">140.8k Posts</div>
+            </div>
+            <div class="item p-3 hover:bg-gray-800 cursor-pointer">
+              <div class="text-sm text-gray-200">Trending in India</div>
+              <div class="font-bold">#New Entreprenuer Harshita</div>
+              <div class="text-sm text-gray-200">150k Posts</div>
+            </div>
+            <div class="item p-3 hover:bg-gray-800 cursor-pointer">
+              <div class="text-sm text-gray-200">Trending in India</div>
+              <div class="font-bold">#Olympics 2024</div>
+              <div class="text-sm text-gray-200">164.2k Posts</div>
+            </div>
+          </div>
+          <div class="who sticky top-[50vh] m-3 bg-[#16181c] w-[65%] py-5 rounded-xl space-y-3 ">
+            <h1 class="text-xl font-bold  px-3 ">Who to follow</h1>
+            <div class="item p-3 px-3  items-center gap-2 flex justify-between">
+                <div class="flex gap-3">
+                    <div class="p1"><img class=" w-12 h-12 rounded-full" src="https://pbs.twimg.com/profile_images/1572937957895507968/Z_NW0tQi_400x400.jpg"></div>
+                    <div class="p2">
+                        <div>Versal</div>
+                        <div class="text-gray-500">@Versal</div>
+                    </div>
+                </div>
+            
+            <div class="p3">
+            <button class="bg-white text-black px-5 py-2 w-13 rounded-full font-bold hover:opacity-60 ">Follow</button>
+            </div>
+            </div>
+            <div class="item p-3 px-3  items-center gap-2 flex justify-between">
+                <div class="flex gap-3">
+                    <div class="p1"><img class=" w-12 h-12 rounded-[10%]" src="https://pbs.twimg.com/profile_images/1278183948279922690/ybnDHXn7_400x400.jpg"></div>
+                    <div class="p2">
+                        <div>PlayStation</div>
+                        <div class="text-gray-500">@PlayStation</div>
+                    </div>
+                </div>
+            
+            <div class="p3">
+            <button class="bg-white text-black px-5 py-2 w-13 rounded-full font-bold hover:opacity-60 ">Follow</button>
+            </div>
+            
+            </div>
+            <div class="item p-3  items-center gap-2 flex justify-between">
+                <div class="flex gap-3">
+                    <div class="p1"><img class=" w-12 h-12 rounded-full" src="https://pbs.twimg.com/profile_images/1815749056821346304/jS8I28PL_400x400.jpg"></div>
+                    <div class="p2">
+                        <div>Elon Musk</div>
+                        <div class="text-gray-500">@Elonmusk</div>
+                    </div>
+                </div>
+            
+            <div class="p3">
+            <button class="bg-white text-black px-5 py-2 w-13 rounded-full font-bold hover:opacity-60 ">Follow</button>
+            </div>
+            
+            </div>
+            <div class="text-blue-600 underline my-5 px-3 hover:opacity-80">Show More
+
+            </div>
+            </div>
+            
+            
+            </div>
+            
+          </div>
+        </div>
+       
+        
+      </div>
+    </div>
+  </body>
+</html>
